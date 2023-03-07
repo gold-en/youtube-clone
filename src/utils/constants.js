@@ -19,12 +19,15 @@ export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 // A category array that we are going to use on our sidebar
 export const categories = [
   { name: 'New', icon: <HomeIcon /> },
-  { name: 'Radiography', icon: <AcUnitIcon /> },
+  { name: 'JS Mastery', icon: <CodeIcon /> },
+  { name: 'Tina Huang', icon: <CodeIcon /> },
+  { name: 'CodingNepal', icon: <CodeIcon /> },
+  { name: 'Lama Dev', icon: <CodeIcon /> },
   { name: 'Ultrasound', icon: <WavesIcon /> },
+  { name: 'Radiography', icon: <AcUnitIcon /> },
   { name: 'Coding', icon: <CodeIcon /> },
   { name: 'ReactJS', icon: <CodeIcon /> },
   { name: 'NextJS', icon: <CodeIcon /> },
-  { name: 'JS Mastery', icon: <CodeIcon /> },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon /> },
   { name: 'Podcast', icon: <GraphicEqIcon /> },
