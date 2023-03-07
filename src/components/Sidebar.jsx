@@ -31,7 +31,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
         </span>
         <span
           style={{
-            opacity: category.name === selectedCategory ? '1' : 0.8,
+            opacity: category.name === selectedCategory ? '1' : '0.8',
           }}
         >
           {category.name}

@@ -10,8 +10,10 @@ const SearchBar = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
+
     if (searchTerm) {
       navigate(`/search/${searchTerm}`);
+
       setSearchTerm('');
     }
   };
